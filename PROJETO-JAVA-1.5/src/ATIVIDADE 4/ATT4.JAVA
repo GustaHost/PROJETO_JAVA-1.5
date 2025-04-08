@@ -1,4 +1,4 @@
-/**************************
+/* *************************
 
 Em um mundo cada vez mais digital, um grupo de amigos apaixonados por videogames percebe
 uma oportunidade de combinar seus hobbies com a prática de programação. Eles decidem criar
@@ -15,7 +15,7 @@ do jogador. Inclua um construtor para inicializar esses atributos e métodos pú
 a manipulação segura dessas informações — por exemplo, métodos para aumentar a pontuação,
 subir de nível e exibir as informações do jogador.”
 
-***************************/
+************************** */
 import java.util.Scanner;
 public class Main
 {
@@ -26,14 +26,9 @@ public class Main
 		
 		jogador1.aumentarPontuacao();
 		
-		System.out.println("Sua pontuação atual é de: " + jogador1.getPontuacao());
-		
 		jogador1.subirNivel();
 		
 		jogador1.exibirInfo();
-		
-		
-		
 		
 		
 		
