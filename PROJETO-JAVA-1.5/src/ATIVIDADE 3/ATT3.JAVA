@@ -16,7 +16,7 @@ dados. Implemente métodos para depositar(valor), sacar(valor) e um método que 
 conta. Lembre-se de que cada operação deve ajustar o saldo da conta de acordo com a transação realizada.”
 */
 import java.util.Scanner;
-public class Main{
+public class ATT3{
 	public static void main(String[] args) {
 	    Scanner leitor = new Scanner(System.in);
 		ContaBancaria conta1 = new ContaBancaria(1111, "gustavo ribeiro", 2000);

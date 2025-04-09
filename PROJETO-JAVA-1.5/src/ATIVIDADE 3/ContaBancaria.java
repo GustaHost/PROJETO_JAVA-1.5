@@ -4,12 +4,12 @@ public class ContaBancaria{
     
     // esse private faz com que não se possa mecher nas variaveis fora da pasta original a  menos que use o setter (muda a variavel)e getter(coleta o valor atual da variavel)
     private int numeroConta;
-    private String nomeTitular;
+    private String NomeTitular;
     private float saldo;
     //esse é o construtor que guarda o valor da variavel no objeto com o this. (não entendi mt bem mas creio que é isso)
-     public ContaBancaria(int numeroConta, String nomeTitular, float saldo) {
+     public ContaBancaria(int numeroConta, String NomeTitular, float saldo) {
         this.numeroConta = numeroConta;
-        this.nomeTitular = nomeTitular;
+        this.NomeTitular = NomeTitular;
         this.saldo = saldo;
     }
     
@@ -31,7 +31,8 @@ public class ContaBancaria{
         float deposito = leitor.nextFloat();
         
             saldo += deposito;
-            System.out.println("Operação concluida! Seu saldo atual é de: " + saldo);
+            System.out.println("Operação concluida! parabens " + NomeTitular + "Seu saldo atual é de: " + saldo);
+
     }
         
     
