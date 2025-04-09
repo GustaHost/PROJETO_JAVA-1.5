@@ -16,11 +16,11 @@ a manipulação segura dessas informações — por exemplo, métodos para aumen
 subir de nível e exibir as informações do jogador.”
 
 ************************** */
-import java.util.Scanner;
-public class Main
+
+public class ATT4
 {
 	public static void main(String[] args) {
-	    Scanner leitor = new Scanner(System.in);
+	    
 	    
 	    Jogador jogador1 = new Jogador("gustavo", 10.0f, 5);
 		
